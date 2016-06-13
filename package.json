@@ -1,0 +1,13 @@
+{
+  "name": "local",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.13.4"
+  },
+  "devDependencies": {},
+  
+  "author": "andrewH20",
+  "license": "MIT"
+}

@@ -1,0 +1,4 @@
+#ignore folders
+bower_components/
+node_modules/
+wwwroot/lib
