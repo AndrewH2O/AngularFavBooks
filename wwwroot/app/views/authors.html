@@ -1,0 +1,16 @@
+<h2>Authors</h2>
+<div class="panel panel-success">
+    <div class="panel-heading">
+        <h3 class="panel-title">Book Title: {{ book.title }} </h3>
+    </div>
+    
+</div>
+
+<table class="table table-striped table-bordered">
+    <tr>
+        <th>Name</th>
+    </tr>
+    <tr ng-repeat="author in book.authors">
+        <td>{{ author.name }}</td>
+    </tr>
+</table>

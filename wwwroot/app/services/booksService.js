@@ -24,15 +24,15 @@
                 publisher:"Wrox",
                 authors:[
                     {
-                        id:1,
+                        id:3,
                         name:"Christian Nagel"
                     },
                     {
-                        id:2,
+                        id:4,
                         name:"Jay Glenn"
                     },
                     {
-                        id:3,
+                        id:5,
                         name:"Morgan Skinner"
                     }
                 ]
@@ -44,11 +44,11 @@
                 publisher:"O'Reilly Media",
                 authors:[
                     {
-                        id:1,
+                        id:6,
                         name:"Shyam Seshadri"
                     },
                     {
-                        id:2,
+                        id:7,
                         name:"Brad Green"
                     }
                 ]
@@ -60,7 +60,7 @@
                 publisher:"Apress",
                 authors:[
                     {
-                        id:1,
+                        id:8,
                         name:"Adam Freeman"
                     }
                 ]
@@ -72,19 +72,19 @@
                 publisher:"Wrox",
                 authors:[
                     {
-                        id:1,
+                        id:9,
                         name:"Jon Galloway"
                     },
                     {
-                        id:2,
+                        id:10,
                         name:"Brad Wilson"
                     },
                     {
-                        id:3,
+                        id:11,
                         name:"K. Scott Allen"
                     },
                     {
-                        id:3,
+                        id:12,
                         name:"David Matson"
                     }
                 ]
@@ -94,7 +94,7 @@
             return books;
         };
         
-        this.getBook = function (bookId) {
+        this.getBookById = function (bookId) {
             for (var i = 0, len = books.length; i<len; i++) {
                 if(books[i].id===parseInt(bookId)){
                     return books[i];

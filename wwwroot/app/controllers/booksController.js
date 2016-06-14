@@ -1,5 +1,5 @@
 (function(){
-    var booksController = function ($scope,booksService) {
+    var BooksController = function ($scope,booksService) {
         var vm = $scope;
 
         vm.sortBy = 'title';
@@ -19,8 +19,8 @@
     };
 
     //minification
-    booksController.$inject = ['$scope','booksService'];
+    BooksController.$inject = ['$scope','booksService'];
 
     angular.module('favBooks')
-        .controller('booksController',booksController);
+        .controller('BooksController',BooksController);
 }());

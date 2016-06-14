@@ -4,8 +4,12 @@
     app.config(function ($routeProvider) {
         $routeProvider
             .when('/',{
-                controller:'booksController',
+                controller:'BooksController',
                 templateUrl:'app/views/books.html'
+            })
+            .when('/authors/:bookId',{
+                controller:'AuthorsController',
+                templateUrl:'app/views/authors.html'
             })
             .otherwise({ redirectTo:'/' });
     });
